@@ -68,7 +68,9 @@ function CartItem() {
       <button>Checkout (Coming Soon)</button>
       <br />
       <br />
-      <button>Continue Shopping</button>
+      <button onClick={() => window.location.href = "/"}>
+  Continue Shopping
+</button>
     </div>
   );
 }
